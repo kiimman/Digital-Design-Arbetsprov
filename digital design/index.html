@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+         <!--Nav section-->
+         <section class="nav-section">
+            <div class="container">
+                <a href="home.html"><img class="logotype" src="images/Logo.png" alt=""></a>
+                <h1>GrönGuiden</h1>
+                <nav>
+                    <div class="first-row">
+                        <div class="company-info">
+                            <span><i class="fa-regular fa-phone-volume"></i>+46 707345268</span>
+                            <span><i class="fa-regular fa-envelope"></i>GrönGuiden@hotmail.se</span>
+                            <span><i class="fa-regular fa-location-dot"></i>Halmstad</span>                           
+                        </div>
+                        <div class="social-media">
+                            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/nathalieserafia/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="second-row">
+                        <div class="navbar">
+                            <a href="#hem">Hem</a>
+                            <a href="#galleri">Quiz</a>
+                            <a href="#om">Om oss</a>
+                            <a href="#kontakt">Kontakt</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>  
+        </section>
+
+        <img class="header-img" src="/images/digital design bild 1.jpg" alt="">
+        <h1 class="header-title">Ta Steget Mot Hållbarhet</h1>
+    </header>
+
+    <!--article-section-->
+    <section class="article-section">
+        
+        <div class="container">
+            <div class="image-column">
+                <img src="images/article-image1.jpg" alt="">
+                <div class="image-quote">
+                    <p>Hitta artiklar om dagens konsumtion</p>
+                    <button class="article-button"> Läs mer </button>
+                </div>   
+            </div>
+            <div class="image-column">
+                <img src="images/guide-image1.jpg" alt="">
+                <div class="image-quote">
+                    <p>Hitta en guide om hur du kan påverka konsumtionen</p>
+                    <button class="article-button"> Läs mer </button>
+                </div>   
+            </div>
+        </div>
+    </section>
+    
+    <!--quiz-section-->
+    <section class="quiz-section">
+        <div class="quiz-title">
+            <h1>Klicka dig in på vårat Quiz för att testa dina kunskaper om dagens konsumtion</h1>
+        </div>
+        <div class="container">
+            <div class="image-column">
+                <img class="bike" src="images/quiz-bike.jpg" alt="">
+                <div class="image-quote">
+                    <h6>Hur mycket koldioxid kan du spara per år genom <br> att byta ut en bilresa på 20 km med cykling?</h6>
+                    <p>A) 0 kg <br>
+                        B) 2 kg<br>
+                        C) 5 kg<br>
+                        D) 10 kg
+                    </p>
+                </div>   
+            </div>
+            <div class="image-column">
+                <img class="clothes" src="images/quiz-clothes.jpg" alt="">
+                <div class="image-quote">
+                    <h6>Ungefär hur lång tid tar det för en plastpåse att brytas ner i naturen?</h6>
+                    <p>A) 10 år<br>
+                        B) 100 år<br>
+                        C) 500 år<br>
+                        D) 1000 år
+                    </p>
+                </div>   
+            </div>
+            <div class="image-column">
+                <img class="food" src="images/quiz-food.jpg" alt="">
+                <div class="image-quote">
+                    <h6>Vilken del av den globala livsmedelsproduktionen<br> går förlorad eller slösas bort enligt FN?</h6>
+                        <p>
+                            A) 10%<br>
+                            B) 25%<br>
+                            C) 50%<br>
+                            D) 30%
+                        </p>
+                </div>   
+            </div>
+            <div class="image-column">
+                <img class="bag" src="images/quiz-plasticbag.jpg" alt="">
+                <div class="image-quote">
+                    <h6>Vilket material är mest miljövänligt att använda för kläder med avseende på vattenförbrukning och kemikalier?</h6>
+                    <p>A) Bomull<br>
+                        B) Polyester<br>
+                        C) Linne<br>
+                        D) Ull
+                    </p>
+                </div>   
+            </div> 
+        </div>
+        <button class="quiz-button">Quiz</button>
+    </section>
+    
+    <!--search-section-->
+    <section class="search-section">
+        
+        <h2>Upptäck Hållbara Hemligheter i Ditt Närområde</h2>
+        <p>Sök på en specifik ort och hitta information om hur företagen bidrar till en bättre och hållbar framtid  </p>
+        
+        <div class="search-container">
+            <input class="search-input" type="text" placeholder="Sök efter en ort...">
+            <div class="filter-container">
+                <h3>Filteralternativ</h3>
+                <select id="category-filter">
+                <option value="">Välj kategori...</option>
+                <option value="ekologiska-livsmedel">Ekologiska livsmedel</option>
+                <option value="hållbara-klädmärken">Hållbara klädmärken</option>
+                <option value="återvinningsstationer">Återvinningsstationer</option>
+                </select>
+                <!-- Lägg till fler filteralternativ här om det behövs -->
+            </div>
+        </div>
+        
+        
+        <button class="search-button">Sök</button>
+        <div class="search-results">
+            <h5>Sök resultat:</h5>
+          </div>
+    </section>
+    
+    <div class="mellan-text">
+        <h1>Top 5 hållbara företag i Sverige</h1>
+    </div>
+
+    <!--company-section-->
+    <section class="company-section">
+        <div class="container">
+            <div class="companies">
+                <div class="image-column">
+                    <img src="/images/AMF.png" alt="">
+                </div>
+                <div class="image-column">
+                    <img src="/images/arla.jpeg" alt="">
+                </div>
+                <div class="image-column">
+                    <img src="/images/Eon.png" alt="">
+                </div>
+                <div class="image-column">
+                    <img class="lantmannen" src="/images/lantmannen.jpeg" alt="">
+                </div>
+                <div class="image-column">
+                    <img src="/images/vattenfall.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--community-section-->
+    <section class="community-section">
+        <div class="container">
+            <div class="image-column">
+                <img class="community-image" src="/images/community-image1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--event-section-->
+    <section class="event-section">
+        <div class="container">
+            <h1 class="event-title">Evenemangskalender och Anmälan</h1>
+            <div class="events">
+                <a href="#" class="event">
+                    <div class="event-date">
+                        <div class="day">18</div>
+                        <div class="month">Apr</div>
+                    </div>
+                    <img src="images/market.jpg" alt="">
+                    <p class="category">Marknad</p>
+                    <h5>Gröna Marknaden</h5>
+                    <p>Upptäck lokala hållbara produkter, aktiviteter och föreläsningar</p>
+                </a>
+                <a href="#" class="event">
+                    <div class="event-date">
+                        <div class="day">6</div>
+                        <div class="month">Maj</div>
+                    </div>
+                    <img src="images/movienight.jpg" alt="">
+                    <p class="category">Film kväll</p>
+                    <h5>Hållbarhetsfilmnatt</h5>
+                    <p>Inspirerande filmvisning och diskussioner om hållbarhet och miljöfrågor.</p>
+                </a>
+                <a href="#" class="event">
+                    <div class="event-date">
+                        <div class="day">8</div>
+                        <div class="month">Jun</div>
+                    </div>
+                    <img src="images/workshop.jpg" alt="">
+                    <p class="category">Workshop</p>
+                    <h5>Hållbarhetshjälpen</h5>
+                    <p>Praktiska tips för hållbar livsstil, DIY-projekt, och diskussioner.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-section-->
+    <footer>
+        <section class="footer-section">
+            <img class="background-lines-white-right" src="images/background-lines-white-right.svg" alt="">
+            <div class="container">
+                <div class="logo">
+                    <img src="images/Logo.png">
+                </div>
+                <div>
+                    <h5>GrönGuiden</h5>
+                    <ul>
+                        <li><a href="#">Jobba hos oss</a></li>
+                        <li><a href="#">Sponsorer</a></li>
+                        <li><a href="#"></a></li>
+                        
+                    </ul>
+                </div>
+                <div>
+                    <h5>Hjälp</h5>
+                    <ul>
+                        <li><a href="#">Kontakta oss</a></li>
+                        <li><a href="#">Om oss</a></li>               
+                    </ul>
+                </div>                   
+            </div>
+        </section>
+        <section class="copyright-section">
+            <div class="container">
+                <div>2024 GrönGuiden - All rights Reserved.</div>
+                <div class="social-media">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    
+    <script src="https://kit.fontawesome.com/41c8b474e2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
